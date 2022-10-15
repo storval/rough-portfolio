@@ -15,9 +15,22 @@ a {
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    font-size: 15px;
 }
 
+a.hamborgari {
+  font-size: 15px;
+}
+
+#about {
+  max-width: 100%;
+}
+
+
+
+#inspo {
+  text-align: center;
+  font-size: 40px;
+}
 
 a:hover {
     opacity: 70%;
@@ -72,11 +85,31 @@ display: inline-block;
 
 }
 
+.textabox{
+  width: 80%;
+}
+
+pre {
+  color: white;
+}
+
 .text-hljodfaeri {
     display: inline-block;
     width: 50%;
 }
 
+.inspo {
+  text-align: center;
+}
+
+a.inspo {
+  font-size: 100px;
+}
+
+.detail-mynd {
+  margin-bottom: 1000px;
+  width: 100%;
+}
 
 
 .main-midja .myndir {
@@ -122,11 +155,14 @@ display: inline-block;
 
 
   /*
+
+thanks to the designer of kingkrule.net webiste for inspiration on design!
+I couldn't find a name, so feel free to send a message on git if you know this person
+open source gang
+
+
  <div class="masonry">
 <div class="mItem"><img src="photos/1.jpg"></div> 
-
-
-
 
 .masonry img {
     width: 90%;
